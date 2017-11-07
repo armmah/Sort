@@ -16,7 +16,6 @@ namespace AllSort
         }
         public static T[] Sort(T[] array, int startIndex, int length, Comparison<T> comparison)
         {
-            //Add the code for recursive Quick sort here
             _Sort(array, startIndex, startIndex + length - 1, comparison);
             return array;
         }
